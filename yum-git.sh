@@ -24,9 +24,9 @@ out0 () {
 
 out0 s "bash <(curl -Ls "https://raw.githubusercontent.com/BlueSkyXN/Yum-Git/main/yum-git.sh")\n"
 out0 s "作者：BlueSkyXN 博客：https://www.blueskyxn.com\n"
+out0 s "仅支持CENTOS等YUM系列LINUX系统 \n"
 while [ 1 -eq 1 ];do
-
-out1 y "-------------------------------  \n"
+out1 y "------------------------------------\n"
 out1 y "|"
 out0 y " 请选择软件下载源[脚本源-全球]:   "
 out1 y "|\n"
@@ -60,7 +60,7 @@ out1 y "|\n"
 out1 y "|"
 out1 r " 0. 退出                          "
 out1 y "|\n"
-out1 y "-------------------------------\n"
+out1 y "------------------------------------\n"
 read id
 case $id in
     0)
@@ -100,4 +100,3 @@ case $id in
         ;;
 esac
 done
-clear
