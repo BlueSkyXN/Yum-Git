@@ -29,7 +29,7 @@ while [ 1 -eq 1 ];do
 
 out1 y "-------------------------------\n"
 out1 y "|"
-out0 y " 请选择下载源:   "
+out0 y " 请选择软件下载源[脚本源-全球]: "
 out1 y "|\n"
 out1 y "|"
 out1 b " 1. 官方日本源                "
@@ -42,6 +42,21 @@ out1 b " 3. ORACLE-US-SJ-OSS         "
 out1 y "|\n"
 out1 y "|"
 out1 b " 4. JSDELIVR                 "
+out1 y "|\n"
+out1 y "|"
+out0 y " 请选择软件下载源[脚本源-大陆]: "
+out1 y "|\n"
+out1 y "|"
+out1 b " 5. 官方日本源                "
+out1 y "|\n"
+out1 y "|"
+out1 b " 6. GITHUB-RAW               "
+out1 y "|\n"
+out1 y "|"
+out1 b " 7. ORACLE-US-SJ-OSS         "
+out1 y "|\n"
+out1 y "|"
+out1 b " 8. JSDELIVR                 "
 out1 y "|\n"
 out1 y "|"
 out1 r " 0. 退出                     "
@@ -66,6 +81,22 @@ case $id in
         ;;
     4)
         bash <(curl -Ls "https://raw.githubusercontent.com/BlueSkyXN/Yum-Git/main/yum-git-jsd.sh")
+        break
+        ;;
+    5)
+        bash <(curl -Ls "https://cdn.jsdelivr.net/gh/BlueSkyXN/Yum-Git/main/yum-git-off.sh")
+        break
+        ;;
+    6)
+        bash <(curl -Ls "https://cdn.jsdelivr.net/gh/BlueSkyXN/Yum-Git/main/yum-git-raw.sh")
+        break
+        ;;
+    7)
+        bash <(curl -Ls "https://cdn.jsdelivr.net/gh/BlueSkyXN/Yum-Git/main/yum-git-oss.sh")
+        break
+        ;;
+    8)
+        bash <(curl -Ls "https://cdn.jsdelivr.net/gh/BlueSkyXN/Yum-Git/main/yum-git-jsd.sh")
         break
         ;;
 esac
