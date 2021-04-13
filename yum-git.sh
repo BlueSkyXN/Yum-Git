@@ -1,4 +1,3 @@
-#!/bin/bash
 out1 () {
 	color=$1
 	what=$2
