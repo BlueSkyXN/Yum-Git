@@ -1,6 +1,6 @@
 # Yum-Git
 
-CentOS（YUM系列） 一键脚本：安装/更新 GIT软件包
+CentOS（YUM系列） 一键脚本：自动编译安装/更新 GIT软件包
 
 作者： @BlueSkyXN
 
