@@ -16,3 +16,8 @@ bash <(curl -Ls "https://raw.githubusercontent.com/BlueSkyXN/Yum-Git/main/yum-gi
 
 ## 中国大陆优化脚本
 bash <(curl -Ls "https://cdn.jsdelivr.net/gh/BlueSkyXN/Yum-Git/main/yum-git.sh")
+
+# 脚本说明
+内置一键安装相关依赖，更新YUM，移除YUM默认源的GIT（1.8.X的垃圾）
+
+一键编译安装2.31.1版本的GIT并创建软链接
