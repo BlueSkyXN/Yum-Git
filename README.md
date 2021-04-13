@@ -2,6 +2,8 @@
 
 CentOS（YUM系列） 一键脚本：安装/更新 GIT软件包
 
+作者： @BlueSkyXN
+
 # 数据源
 
 ## 脚本源
