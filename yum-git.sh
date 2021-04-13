@@ -83,19 +83,19 @@ case $id in
         break
         ;;
     5)
-        bash <(curl -Ls "https://cdn.jsdelivr.net/gh/BlueSkyXN/Yum-Git/main/yum-git-off.sh")
+        bash <(curl -Ls "https://cdn.jsdelivr.net/gh/BlueSkyXN/Yum-Git/yum-git-off.sh")
         break
         ;;
     6)
-        bash <(curl -Ls "https://cdn.jsdelivr.net/gh/BlueSkyXN/Yum-Git/main/yum-git-raw.sh")
+        bash <(curl -Ls "https://cdn.jsdelivr.net/gh/BlueSkyXN/Yum-Git/yum-git-raw.sh")
         break
         ;;
     7)
-        bash <(curl -Ls "https://cdn.jsdelivr.net/gh/BlueSkyXN/Yum-Git/main/yum-git-oss.sh")
+        bash <(curl -Ls "https://cdn.jsdelivr.net/gh/BlueSkyXN/Yum-Git/yum-git-oss.sh")
         break
         ;;
     8)
-        bash <(curl -Ls "https://cdn.jsdelivr.net/gh/BlueSkyXN/Yum-Git/main/yum-git-jsd.sh")
+        bash <(curl -Ls "https://cdn.jsdelivr.net/gh/BlueSkyXN/Yum-Git/yum-git-jsd.sh")
         break
         ;;
 esac
